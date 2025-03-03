@@ -74,5 +74,5 @@ def delete(sno):
     
 
 if __name__=="__main__":
-    app.run(debug=True)
-
+    # app.run(debug=True)           #do not use debug=true in production
+     app.run() 
